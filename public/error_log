@@ -1,0 +1,836 @@
+[12-Dec-2018 23:50:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 34
+[14-Dec-2018 23:48:39 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/wra15a3f2nlz/public_html/certificados/public/verificarAdmin.php on line 2
+[14-Dec-2018 23:48:43 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/wra15a3f2nlz/public_html/certificados/public/verificarAdmin.php on line 2
+[14-Dec-2018 23:48:45 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/wra15a3f2nlz/public_html/certificados/public/verificarAdmin.php on line 2
+[14-Dec-2018 23:48:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/wra15a3f2nlz/public_html/certificados/public/verificarAdmin.php on line 2
+[14-Dec-2018 23:48:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/wra15a3f2nlz/public_html/certificados/public/verificarAdmin.php on line 2
+[14-Dec-2018 23:49:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/wra15a3f2nlz/public_html/certificados/public/verificarAdmin.php on line 2
+[15-Dec-2018 00:46:09 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 34
+[15-Dec-2018 11:42:07 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 34
+[16-Dec-2018 11:40:58 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 34
+[16-Dec-2018 11:42:18 UTC] PHP Warning:  require_once(../lib/phpmaile/PHPMailer.php): failed to open stream: No such file or directory in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 5
+[16-Dec-2018 11:42:18 UTC] PHP Fatal error:  require_once(): Failed opening required '../lib/phpmaile/PHPMailer.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 5
+[16-Dec-2018 11:44:15 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 34
+[16-Dec-2018 11:53:40 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[16-Dec-2018 11:53:40 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 34
+[16-Dec-2018 11:59:34 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[16-Dec-2018 11:59:34 UTC] PHP Fatal error:  Uncaught Error: Class 'SMTP' not found in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/class.phpmailer.php:1409
+Stack trace:
+#0 /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/class.phpmailer.php(1488): PHPMailer->getSMTPInstance()
+#1 /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/class.phpmailer.php(1428): PHPMailer->smtpConnect(Array)
+#2 /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/class.phpmailer.php(1225): PHPMailer->smtpSend('Date: Sun, 16 D...', 'This is a multi...')
+#3 /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/class.phpmailer.php(1109): PHPMailer->postSend()
+#4 /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php(68): PHPMailer->send()
+#5 {main}
+  thrown in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/class.phpmailer.php on line 1409
+[16-Dec-2018 12:01:24 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[16-Dec-2018 12:11:57 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[16-Dec-2018 12:11:57 UTC] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 50
+[16-Dec-2018 12:11:57 UTC] PHP Warning:  Illegal string offset 'EMAIL' in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 50
+[16-Dec-2018 12:16:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[16-Dec-2018 12:16:51 UTC] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 50
+[16-Dec-2018 12:16:51 UTC] PHP Warning:  Illegal string offset 'EMAIL' in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 50
+[16-Dec-2018 12:19:02 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[16-Dec-2018 12:19:02 UTC] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 50
+[16-Dec-2018 12:19:02 UTC] PHP Warning:  Illegal string offset 'EMAIL' in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 50
+[16-Dec-2018 12:20:09 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[16-Dec-2018 12:20:09 UTC] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 50
+[16-Dec-2018 12:20:09 UTC] PHP Warning:  Illegal string offset 'EMAIL' in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 50
+[16-Dec-2018 12:25:48 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[16-Dec-2018 12:25:48 UTC] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 50
+[16-Dec-2018 12:25:48 UTC] PHP Warning:  Illegal string offset 'EMAIL' in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 50
+[16-Dec-2018 12:27:52 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[16-Dec-2018 12:27:52 UTC] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 50
+[16-Dec-2018 12:27:52 UTC] PHP Warning:  Illegal string offset 'EMAIL' in /home/wra15a3f2nlz/public_html/certificados/public/processaReset.php on line 50
+[16-Dec-2018 12:29:15 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[16-Dec-2018 12:43:15 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[16-Dec-2018 13:07:50 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[16-Dec-2018 19:46:56 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[17-Dec-2018 01:57:42 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[17-Dec-2018 02:02:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[17-Dec-2018 02:06:24 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[17-Dec-2018 02:11:00 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[17-Dec-2018 02:11:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[17-Dec-2018 02:13:56 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[18-Dec-2018 00:55:20 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 00:42:30 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 00:48:20 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 00:49:06 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 00:53:32 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 00:56:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 00:57:44 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 00:59:05 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 01:05:14 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 09:40:35 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 09:42:05 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 09:42:54 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 09:43:27 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 09:44:47 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 09:46:14 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 09:47:04 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 09:57:34 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 09:58:09 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 09:58:45 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 09:59:46 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 09:59:51 UTC] SERVER -> CLIENT: 220-a2plcpnl0792.prod.iad2.secureserver.net ESMTP Exim 4.91 #1 Sat, 22 Dec 2018 02:59:51 -0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[22-Dec-2018 09:59:51 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 09:59:51 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-STARTTLS
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 09:59:51 UTC] CLIENT -> SERVER: STARTTLS
+
+[22-Dec-2018 09:59:51 UTC] SERVER -> CLIENT: 220 TLS go ahead
+
+[22-Dec-2018 09:59:51 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 09:59:51 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 09:59:51 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[22-Dec-2018 09:59:51 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[22-Dec-2018 09:59:51 UTC] CLIENT -> SERVER: Y29udGF0b0BzZWx2YWJyYXNpbC5jb20uYnI=
+
+[22-Dec-2018 09:59:51 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[22-Dec-2018 09:59:51 UTC] CLIENT -> SERVER: ZWFzYjUwI0M=
+
+[22-Dec-2018 09:59:53 UTC] SERVER -> CLIENT: 535 Incorrect authentication data
+
+[22-Dec-2018 09:59:53 UTC] SMTP ERROR: Password command failed: 535 Incorrect authentication data
+
+[22-Dec-2018 09:59:53 UTC] SMTP Error: Could not authenticate.
+[22-Dec-2018 09:59:53 UTC] CLIENT -> SERVER: QUIT
+
+[22-Dec-2018 09:59:53 UTC] SERVER -> CLIENT: 221 a2plcpnl0792.prod.iad2.secureserver.net closing connection
+
+[22-Dec-2018 09:59:53 UTC] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[22-Dec-2018 10:02:25 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 10:02:30 UTC] SERVER -> CLIENT: 220-a2plcpnl0792.prod.iad2.secureserver.net ESMTP Exim 4.91 #1 Sat, 22 Dec 2018 03:02:30 -0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[22-Dec-2018 10:02:30 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:02:30 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:02:30 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[22-Dec-2018 10:02:30 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[22-Dec-2018 10:02:30 UTC] CLIENT -> SERVER: Y29udGF0b0BzZWx2YWJyYXNpbC5jb20uYnI=
+
+[22-Dec-2018 10:02:30 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[22-Dec-2018 10:02:30 UTC] CLIENT -> SERVER: ZWFzYjUwI0M=
+
+[22-Dec-2018 10:02:32 UTC] SERVER -> CLIENT: 535 Incorrect authentication data
+
+[22-Dec-2018 10:02:32 UTC] SMTP ERROR: Password command failed: 535 Incorrect authentication data
+
+[22-Dec-2018 10:02:32 UTC] SMTP Error: Could not authenticate.
+[22-Dec-2018 10:02:32 UTC] CLIENT -> SERVER: QUIT
+
+[22-Dec-2018 10:02:32 UTC] SERVER -> CLIENT: 221 a2plcpnl0792.prod.iad2.secureserver.net closing connection
+
+[22-Dec-2018 10:02:32 UTC] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[22-Dec-2018 10:06:51 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 10:06:56 UTC] SERVER -> CLIENT: 220-a2plcpnl0792.prod.iad2.secureserver.net ESMTP Exim 4.91 #1 Sat, 22 Dec 2018 03:06:56 -0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[22-Dec-2018 10:06:56 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:06:56 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:06:56 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[22-Dec-2018 10:06:56 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[22-Dec-2018 10:06:56 UTC] CLIENT -> SERVER: X21haW5hY2NvdW50QHNlbHZhYnJhc2lsLmNvbS5icg==
+
+[22-Dec-2018 10:06:56 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[22-Dec-2018 10:06:56 UTC] CLIENT -> SERVER: U2JyMTgzMUAx
+
+[22-Dec-2018 10:06:58 UTC] SERVER -> CLIENT: 535 Incorrect authentication data
+
+[22-Dec-2018 10:06:58 UTC] SMTP ERROR: Password command failed: 535 Incorrect authentication data
+
+[22-Dec-2018 10:06:58 UTC] SMTP Error: Could not authenticate.
+[22-Dec-2018 10:06:58 UTC] CLIENT -> SERVER: QUIT
+
+[22-Dec-2018 10:06:58 UTC] SERVER -> CLIENT: 221 a2plcpnl0792.prod.iad2.secureserver.net closing connection
+
+[22-Dec-2018 10:06:58 UTC] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[22-Dec-2018 10:09:30 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 10:09:35 UTC] SERVER -> CLIENT: 220-a2plcpnl0792.prod.iad2.secureserver.net ESMTP Exim 4.91 #1 Sat, 22 Dec 2018 03:09:35 -0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[22-Dec-2018 10:09:35 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:09:35 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello ip-107-180-46-168.ip.secureserver.net [107.180.46.168]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-STARTTLS
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:09:35 UTC] CLIENT -> SERVER: STARTTLS
+
+[22-Dec-2018 10:09:35 UTC] SERVER -> CLIENT: 220 TLS go ahead
+
+[22-Dec-2018 10:09:35 UTC] SMTP Error: Could not connect to SMTP host.
+[22-Dec-2018 10:09:35 UTC] CLIENT -> SERVER: QUIT
+
+[22-Dec-2018 10:09:35 UTC] SERVER -> CLIENT: 
+[22-Dec-2018 10:09:35 UTC] SMTP ERROR: QUIT command failed: 
+[22-Dec-2018 10:09:35 UTC] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[22-Dec-2018 10:13:14 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 10:13:14 UTC] Connection: opening to a2plcpnl0792.prod.iad2.secureserver.net:587, timeout=300, options=array (
+)
+[22-Dec-2018 10:13:14 UTC] Connection: opened
+[22-Dec-2018 10:13:19 UTC] SERVER -> CLIENT: 220-a2plcpnl0792.prod.iad2.secureserver.net ESMTP Exim 4.91 #1 Sat, 22 Dec 2018 03:13:19 -0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[22-Dec-2018 10:13:19 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:13:19 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-STARTTLS
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:13:19 UTC] CLIENT -> SERVER: STARTTLS
+
+[22-Dec-2018 10:13:19 UTC] SERVER -> CLIENT: 220 TLS go ahead
+
+[22-Dec-2018 10:13:19 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:13:19 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:13:19 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[22-Dec-2018 10:13:19 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[22-Dec-2018 10:13:19 UTC] CLIENT -> SERVER: X21haW5hY2NvdW50QHNlbHZhYnJhc2lsLmNvbS5icg==
+
+[22-Dec-2018 10:13:19 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[22-Dec-2018 10:13:19 UTC] CLIENT -> SERVER: U2JyMTgzMUAx
+
+[22-Dec-2018 10:13:21 UTC] SERVER -> CLIENT: 535 Incorrect authentication data
+
+[22-Dec-2018 10:13:21 UTC] SMTP ERROR: Password command failed: 535 Incorrect authentication data
+
+[22-Dec-2018 10:13:21 UTC] SMTP Error: Could not authenticate.
+[22-Dec-2018 10:13:21 UTC] CLIENT -> SERVER: QUIT
+
+[22-Dec-2018 10:13:21 UTC] SERVER -> CLIENT: 221 a2plcpnl0792.prod.iad2.secureserver.net closing connection
+
+[22-Dec-2018 10:13:21 UTC] Connection: closed
+[22-Dec-2018 10:13:21 UTC] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[22-Dec-2018 10:36:49 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 10:36:49 UTC] Connection: opening to a2plcpnl0792.prod.iad2.secureserver.net:587, timeout=300, options=array (
+)
+[22-Dec-2018 10:36:49 UTC] Connection: opened
+[22-Dec-2018 10:36:54 UTC] SERVER -> CLIENT: 220-a2plcpnl0792.prod.iad2.secureserver.net ESMTP Exim 4.91 #1 Sat, 22 Dec 2018 03:36:54 -0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[22-Dec-2018 10:36:54 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:36:54 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-STARTTLS
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:36:54 UTC] CLIENT -> SERVER: STARTTLS
+
+[22-Dec-2018 10:36:54 UTC] SERVER -> CLIENT: 220 TLS go ahead
+
+[22-Dec-2018 10:36:54 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:36:54 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:36:54 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[22-Dec-2018 10:36:54 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[22-Dec-2018 10:36:54 UTC] CLIENT -> SERVER: X21haW5hY2NvdW50QHNlbHZhYnJhc2lsLmNvbS5icg==
+
+[22-Dec-2018 10:36:54 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[22-Dec-2018 10:36:54 UTC] CLIENT -> SERVER: U2JyMTgzMUAx
+
+[22-Dec-2018 10:36:56 UTC] SERVER -> CLIENT: 535 Incorrect authentication data
+
+[22-Dec-2018 10:36:56 UTC] SMTP ERROR: Password command failed: 535 Incorrect authentication data
+
+[22-Dec-2018 10:36:56 UTC] SMTP Error: Could not authenticate.
+[22-Dec-2018 10:36:56 UTC] CLIENT -> SERVER: QUIT
+
+[22-Dec-2018 10:36:56 UTC] SERVER -> CLIENT: 221 a2plcpnl0792.prod.iad2.secureserver.net closing connection
+
+[22-Dec-2018 10:36:56 UTC] Connection: closed
+[22-Dec-2018 10:36:56 UTC] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[22-Dec-2018 10:38:09 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 10:38:09 UTC] Connection: opening to a2plcpnl0792.prod.iad2.secureserver.net:587, timeout=300, options=array (
+)
+[22-Dec-2018 10:38:09 UTC] Connection: opened
+[22-Dec-2018 10:38:14 UTC] SERVER -> CLIENT: 220-a2plcpnl0792.prod.iad2.secureserver.net ESMTP Exim 4.91 #1 Sat, 22 Dec 2018 03:38:14 -0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[22-Dec-2018 10:38:14 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:38:14 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-STARTTLS
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:38:14 UTC] CLIENT -> SERVER: STARTTLS
+
+[22-Dec-2018 10:38:14 UTC] SERVER -> CLIENT: 220 TLS go ahead
+
+[22-Dec-2018 10:38:14 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:38:14 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:38:14 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[22-Dec-2018 10:38:14 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[22-Dec-2018 10:38:14 UTC] CLIENT -> SERVER: X21haW5hY2NvdW50QHNlbHZhYnJhc2lsLmNvbS5icg==
+
+[22-Dec-2018 10:38:14 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[22-Dec-2018 10:38:14 UTC] CLIENT -> SERVER: U2JyMTgzMUAx
+
+[22-Dec-2018 10:38:16 UTC] SERVER -> CLIENT: 535 Incorrect authentication data
+
+[22-Dec-2018 10:38:16 UTC] SMTP ERROR: Password command failed: 535 Incorrect authentication data
+
+[22-Dec-2018 10:38:16 UTC] SMTP Error: Could not authenticate.
+[22-Dec-2018 10:38:16 UTC] CLIENT -> SERVER: QUIT
+
+[22-Dec-2018 10:38:16 UTC] SERVER -> CLIENT: 221 a2plcpnl0792.prod.iad2.secureserver.net closing connection
+
+[22-Dec-2018 10:38:16 UTC] Connection: closed
+[22-Dec-2018 10:38:16 UTC] SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+[22-Dec-2018 10:39:10 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 10:39:10 UTC] Connection: opening to a2plcpnl0792.prod.iad2.secureserver.net:587, timeout=300, options=array (
+)
+[22-Dec-2018 10:39:10 UTC] Connection: opened
+[22-Dec-2018 10:39:15 UTC] SERVER -> CLIENT: 220-a2plcpnl0792.prod.iad2.secureserver.net ESMTP Exim 4.91 #1 Sat, 22 Dec 2018 03:39:15 -0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:39:15 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-STARTTLS
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: STARTTLS
+
+[22-Dec-2018 10:39:15 UTC] SERVER -> CLIENT: 220 TLS go ahead
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:39:15 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[22-Dec-2018 10:39:15 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: d3JhMTVhM2Yybmx6
+
+[22-Dec-2018 10:39:15 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: U2JyMTgzMUAx
+
+[22-Dec-2018 10:39:15 UTC] SERVER -> CLIENT: 235 Authentication succeeded
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: MAIL FROM:<root@localhost>
+
+[22-Dec-2018 10:39:15 UTC] SERVER -> CLIENT: 250 OK
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: RCPT TO:<hugofilho82@yahoo.com.br>
+
+[22-Dec-2018 10:39:15 UTC] SERVER -> CLIENT: 250 Accepted
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: DATA
+
+[22-Dec-2018 10:39:15 UTC] SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: Date: Sat, 22 Dec 2018 10:39:10 +0000
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: To: hugofilho82@yahoo.com.br
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: From: Root User <root@localhost>
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: Subject: Reenvio de senha
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: Message-ID: <982d38425070038acaa14214ef731bd7@selvabrasil.com.br>
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.27 (https://github.com/PHPMailer/PHPMailer)
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: 
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: Este é um e-mail automático, favor não responder. Sua senha no sistema é <b>vhspf</b>
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: 
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: .
+
+[22-Dec-2018 10:39:15 UTC] SERVER -> CLIENT: 250 OK id=1gaegd-00D6QS-Ao
+
+[22-Dec-2018 10:39:15 UTC] CLIENT -> SERVER: QUIT
+
+[22-Dec-2018 10:39:15 UTC] SERVER -> CLIENT: 221 a2plcpnl0792.prod.iad2.secureserver.net closing connection
+
+[22-Dec-2018 10:39:15 UTC] Connection: closed
+[22-Dec-2018 10:42:06 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 10:42:06 UTC] Connection: opening to ssl://a2plcpnl0792.prod.iad2.secureserver.net:465, timeout=300, options=array (
+)
+[22-Dec-2018 10:42:06 UTC] Connection: opened
+[22-Dec-2018 10:42:11 UTC] SERVER -> CLIENT: 220-a2plcpnl0792.prod.iad2.secureserver.net ESMTP Exim 4.91 #1 Sat, 22 Dec 2018 03:42:11 -0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:42:11 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[22-Dec-2018 10:42:11 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: d3JhMTVhM2Yybmx6
+
+[22-Dec-2018 10:42:11 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: U2JyMTgzMUAx
+
+[22-Dec-2018 10:42:11 UTC] SERVER -> CLIENT: 235 Authentication succeeded
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: MAIL FROM:<contato@selvabrasil.com.br>
+
+[22-Dec-2018 10:42:11 UTC] SERVER -> CLIENT: 250 OK
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: RCPT TO:<hugofilho82@yahoo.com.br>
+
+[22-Dec-2018 10:42:11 UTC] SERVER -> CLIENT: 250 Accepted
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: DATA
+
+[22-Dec-2018 10:42:11 UTC] SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: Date: Sat, 22 Dec 2018 10:42:06 +0000
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: To: hugofilho82@yahoo.com.br
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: From: Root User <contato@selvabrasil.com.br>
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: Subject: Reenvio de senha
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: Message-ID: <3053444be663c818ff46e67ada827d43@selvabrasil.com.br>
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.27 (https://github.com/PHPMailer/PHPMailer)
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: 
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: Este é um e-mail automático, favor não responder. Sua senha no sistema é <b>vhspf</b>
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: 
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: .
+
+[22-Dec-2018 10:42:11 UTC] SERVER -> CLIENT: 250 OK id=1gaejT-00D9SK-8t
+
+[22-Dec-2018 10:42:11 UTC] CLIENT -> SERVER: QUIT
+
+[22-Dec-2018 10:42:11 UTC] SERVER -> CLIENT: 221 a2plcpnl0792.prod.iad2.secureserver.net closing connection
+
+[22-Dec-2018 10:42:11 UTC] Connection: closed
+[22-Dec-2018 10:47:17 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 10:47:17 UTC] Connection: opening to ssl://a2plcpnl0792.prod.iad2.secureserver.net:465, timeout=300, options=array (
+)
+[22-Dec-2018 10:47:17 UTC] Connection: opened
+[22-Dec-2018 10:47:22 UTC] SERVER -> CLIENT: 220-a2plcpnl0792.prod.iad2.secureserver.net ESMTP Exim 4.91 #1 Sat, 22 Dec 2018 03:47:22 -0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[22-Dec-2018 10:47:22 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:47:22 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:47:22 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[22-Dec-2018 10:47:22 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[22-Dec-2018 10:47:22 UTC] CLIENT -> SERVER: d3JhMTVhM2Yybmx6
+
+[22-Dec-2018 10:47:22 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[22-Dec-2018 10:47:22 UTC] CLIENT -> SERVER: U2JyMTgzMUAx
+
+[22-Dec-2018 10:47:22 UTC] SERVER -> CLIENT: 235 Authentication succeeded
+
+[22-Dec-2018 10:47:22 UTC] CLIENT -> SERVER: MAIL FROM:<contato@selvabrasil.com.br>
+
+[22-Dec-2018 10:47:22 UTC] SERVER -> CLIENT: 250 OK
+
+[22-Dec-2018 10:47:22 UTC] CLIENT -> SERVER: RCPT TO:<hugofilho82@yahoo.com.br>
+
+[22-Dec-2018 10:47:23 UTC] SERVER -> CLIENT: 250 Accepted
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: DATA
+
+[22-Dec-2018 10:47:23 UTC] SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: Date: Sat, 22 Dec 2018 10:47:17 +0000
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: To: hugofilho82@yahoo.com.br
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: From: Selva Brasil <contato@selvabrasil.com.br>
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: Subject: Reenvio de senha
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: Message-ID: <951231aaec461184c6f9575bd840476a@selvabrasil.com.br>
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.27 (https://github.com/PHPMailer/PHPMailer)
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: 
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: Este é um e-mail automático, favor não responder. Sua senha no sistema é <b>vhspf</b>
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: 
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: .
+
+[22-Dec-2018 10:47:23 UTC] SERVER -> CLIENT: 250 OK id=1gaeoV-00DESf-0e
+
+[22-Dec-2018 10:47:23 UTC] CLIENT -> SERVER: QUIT
+
+[22-Dec-2018 10:47:23 UTC] SERVER -> CLIENT: 221 a2plcpnl0792.prod.iad2.secureserver.net closing connection
+
+[22-Dec-2018 10:47:23 UTC] Connection: closed
+[22-Dec-2018 10:47:37 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 10:47:37 UTC] Connection: opening to ssl://a2plcpnl0792.prod.iad2.secureserver.net:465, timeout=300, options=array (
+)
+[22-Dec-2018 10:47:37 UTC] Connection: opened
+[22-Dec-2018 10:47:42 UTC] SERVER -> CLIENT: 220-a2plcpnl0792.prod.iad2.secureserver.net ESMTP Exim 4.91 #1 Sat, 22 Dec 2018 03:47:42 -0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:47:42 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[22-Dec-2018 10:47:42 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: d3JhMTVhM2Yybmx6
+
+[22-Dec-2018 10:47:42 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: U2JyMTgzMUAx
+
+[22-Dec-2018 10:47:42 UTC] SERVER -> CLIENT: 235 Authentication succeeded
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: MAIL FROM:<contato@selvabrasil.com.br>
+
+[22-Dec-2018 10:47:42 UTC] SERVER -> CLIENT: 250 OK
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: RCPT TO:<hugofilho82@yahoo.com.br>
+
+[22-Dec-2018 10:47:42 UTC] SERVER -> CLIENT: 250 Accepted
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: DATA
+
+[22-Dec-2018 10:47:42 UTC] SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: Date: Sat, 22 Dec 2018 10:47:37 +0000
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: To: hugofilho82@yahoo.com.br
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: From: Selva Brasil <contato@selvabrasil.com.br>
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: Subject: Reenvio de senha
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: Message-ID: <1e2f993edaf7be268f2eb9b6466822ed@selvabrasil.com.br>
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.27 (https://github.com/PHPMailer/PHPMailer)
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: Content-Type: text/html; charset=utf-8
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: 
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: Este é um e-mail automático, favor não responder. Sua senha no sistema é <b>vhspf</b>
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: 
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: .
+
+[22-Dec-2018 10:47:42 UTC] SERVER -> CLIENT: 250 OK id=1gaeoo-00DEuf-HE
+
+[22-Dec-2018 10:47:42 UTC] CLIENT -> SERVER: QUIT
+
+[22-Dec-2018 10:47:42 UTC] SERVER -> CLIENT: 221 a2plcpnl0792.prod.iad2.secureserver.net closing connection
+
+[22-Dec-2018 10:47:42 UTC] Connection: closed
+[22-Dec-2018 10:49:10 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[22-Dec-2018 10:49:10 UTC] Connection: opening to ssl://a2plcpnl0792.prod.iad2.secureserver.net:465, timeout=300, options=array (
+)
+[22-Dec-2018 10:49:10 UTC] Connection: opened
+[22-Dec-2018 10:49:15 UTC] SERVER -> CLIENT: 220-a2plcpnl0792.prod.iad2.secureserver.net ESMTP Exim 4.91 #1 Sat, 22 Dec 2018 03:49:15 -0700 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: EHLO selvabrasil.com.br
+
+[22-Dec-2018 10:49:15 UTC] SERVER -> CLIENT: 250-a2plcpnl0792.prod.iad2.secureserver.net Hello a2plcpnl0792.prod.iad2.secureserver.net [107.180.108.17]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-AUTH PLAIN LOGIN
+250-CHUNKING
+250-SMTPUTF8
+250 HELP
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[22-Dec-2018 10:49:15 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: d3JhMTVhM2Yybmx6
+
+[22-Dec-2018 10:49:15 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: U2JyMTgzMUAx
+
+[22-Dec-2018 10:49:15 UTC] SERVER -> CLIENT: 235 Authentication succeeded
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: MAIL FROM:<contato@selvabrasil.com.br>
+
+[22-Dec-2018 10:49:15 UTC] SERVER -> CLIENT: 250 OK
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: RCPT TO:<xblader@gmail.com>
+
+[22-Dec-2018 10:49:15 UTC] SERVER -> CLIENT: 250 Accepted
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: DATA
+
+[22-Dec-2018 10:49:15 UTC] SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: Date: Sat, 22 Dec 2018 10:49:10 +0000
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: To: xblader@gmail.com
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: From: Selva Brasil <contato@selvabrasil.com.br>
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: Subject: Reenvio de senha
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: Message-ID: <27031fd508bb5c3bcb05dea01de6efda@selvabrasil.com.br>
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.27 (https://github.com/PHPMailer/PHPMailer)
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: Content-Type: text/html; charset=utf-8
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: 
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: Este é um e-mail automático, favor não responder. Sua senha no sistema é <b>desde</b>
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: 
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: .
+
+[22-Dec-2018 10:49:15 UTC] SERVER -> CLIENT: 250 OK id=1gaeqJ-00DHUT-66
+
+[22-Dec-2018 10:49:15 UTC] CLIENT -> SERVER: QUIT
+
+[22-Dec-2018 10:49:15 UTC] SERVER -> CLIENT: 221 a2plcpnl0792.prod.iad2.secureserver.net closing connection
+
+[22-Dec-2018 10:49:15 UTC] Connection: closed
+[23-Dec-2018 12:19:45 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[23-Dec-2018 13:17:54 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[23-Dec-2018 13:26:20 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[23-Dec-2018 13:26:25 UTC] PHP Notice:  Undefined variable: _SESSION in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 80
+[23-Dec-2018 13:28:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[23-Dec-2018 19:36:27 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[23-Dec-2018 19:37:49 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[24-Dec-2018 00:12:54 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:12:54 UTC] PHP Notice:  Undefined offset: 1 in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 83
+[24-Dec-2018 00:14:26 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:14:26 UTC] PHP Notice:  Undefined offset: 1 in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 83
+[24-Dec-2018 00:16:37 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:16:37 UTC] PHP Notice:  Undefined offset: 1 in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 83
+[24-Dec-2018 00:20:29 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:20:35 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:22:40 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:22:42 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:22:52 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:22:54 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:24:30 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:24:34 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:26:34 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:26:39 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:27:47 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:28:20 UTC] PHP Notice:  Undefined index: emailsenha in /home/wra15a3f2nlz/public_html/certificados/public/confirmaReset.php on line 82
+[24-Dec-2018 00:28:52 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[24-Dec-2018 00:29:40 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/wra15a3f2nlz/public_html/certificados/lib/phpmailer/PHPMailerAutoload.php on line 43
+[03-Jan-2019 16:33:05 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/wra15a3f2nlz/public_html/certificados/public/download.php on line 7
+[03-Jan-2019 16:33:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/wra15a3f2nlz/public_html/certificados/public/download.php on line 7
+[07-Jan-2019 19:24:49 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/wra15a3f2nlz/public_html/certificados/public/download.php on line 7
